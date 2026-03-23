@@ -120,7 +120,10 @@ const Hero = () => {
 						className="md:col-span-5 flex flex-col items-center gap-6"
 					>
 						{/* Photo placeholder — replace with: <img src={yourPhoto} alt="Eren Gulenoglu" className="w-full h-full object-cover" /> */}
-						<div className="w-48 h-64 md:w-56 md:h-72 rounded-2xl border border-border overflow-hidden flex-shrink-0">
+						{/* <div className="w-48 h-64 md:w-56 md:h-72 rounded-2xl border border-border overflow-hidden flex-shrink-0">
+							<img src={myPhoto} alt="Eren Gulenoglu" className="w-full h-full object-cover object-top" />
+						</div> */}
+						<div className="w-56 h-56 md:w-64 md:h-64 rounded-full border border-border overflow-hidden flex-shrink-0">
 							<img src={myPhoto} alt="Eren Gulenoglu" className="w-full h-full object-cover object-top" />
 						</div>
 
