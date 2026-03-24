@@ -37,7 +37,7 @@ const About = () => {
 								{
 									role: "UX Designer & Researcher",
 									place: "Anonymous Company",
-									date: "2024 - Present",
+									date: "Jan 2025 - Apr 2025",
 									detail:
 										"Market research, preparing research documents, conducting user surveys and interviews, analyzing collected data, designing low-fidelity campus mental health app prototype, conducting usability tests, and presenting findings to stakeholders",
 								},
