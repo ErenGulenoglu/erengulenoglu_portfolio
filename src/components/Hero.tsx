@@ -16,6 +16,7 @@ const ROW_2 = [
 	"Emotion Mapping",
 	"User Interviews",
 	"Interaction Design",
+	"A/B Testing",
 ];
 
 const r1 = [...ROW_1, ...ROW_1]; // doubled so -50% always lands on the seam
