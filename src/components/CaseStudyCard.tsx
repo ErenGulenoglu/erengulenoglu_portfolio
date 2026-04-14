@@ -76,7 +76,7 @@ const CaseStudyCard = ({ slug, title, category, description, image, tools, index
 				delay: index * 0.08,
 				ease: [0.16, 1, 0.3, 1],
 			}}
-			className="group"
+			className="group border-b border-border pb-10 last:border-b-0"
 		>
 			<Link to={`/work/${slug}`}>
 				<div className="flex flex-col sm:flex-row gap-6 items-start">

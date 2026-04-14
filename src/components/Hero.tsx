@@ -45,15 +45,6 @@ function MarqueeRow({ items, reverse = false, duration = 40 }: { items: string[]
 const Hero = () => {
 	return (
 		<section className="relative min-h-screen flex items-center overflow-hidden pt-20">
-			{/* Decorative shape — kept from original */}
-			<motion.div
-				initial={{ opacity: 0, scale: 0.9 }}
-				animate={{ opacity: 1, scale: 1 }}
-				transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-				className="absolute -top-32 -right-32 w-[500px] h-[500px] rounded-full"
-				style={{ background: "radial-gradient(circle, hsl(0 0% 8% / 0.06) 0%, transparent 70%)" }}
-			/>
-
 			<div className="container mx-auto px-6 md:px-12 py-24">
 				<div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8 items-center">
 					{/* ── Left: text ── */}
