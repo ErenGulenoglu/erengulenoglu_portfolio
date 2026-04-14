@@ -1,7 +1,7 @@
 import utmconnect_image from "../assets/CCT305/preview_305.png";
 import hazelux_image from "../assets/CCT477/Utm477.jpg";
 import unilink_image from "../assets/CCT434/unilinkpreview.png";
-import cinemabooking_image from "../assets/CinemeBookingUI/CinemaBookingUI.png";
+import cinemabooking_image from "../assets/CinemeBookingUI/CinemaBookingUI_min.png";
 
 export interface Project {
 	slug: string;
