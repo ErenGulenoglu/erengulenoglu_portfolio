@@ -2,6 +2,7 @@ import utmconnect_image from "../assets/CCT305/preview_305.png";
 import hazelux_image from "../assets/CCT477/Utm477.jpg";
 import unilink_image from "../assets/CCT434/unilinkpreview.png";
 import cinemabooking_image from "../assets/CinemeBookingUI/CinemaBookingUI_min.png";
+import AppMH from "../assets/GoThriveGo/AppMH.png";
 
 export interface Project {
 	slug: string;
@@ -13,6 +14,15 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+	{
+		slug: "go-thrive-go",
+		title: "Go Thrive Go - Student Mental Health App",
+		category: "UX Research · UX/UI Design · Mobile App",
+		description:
+			"A low-fidelity prototype for a campus mental health and safety app. Designed through mixed-methods user research, structured interviews, and iterative usability testing with university students.",
+		image: AppMH, // replace with your Go Thrive Go preview image import
+		tools: ["Figma", "Google Forms"],
+	},
 	{
 		slug: "utm-connect-ux",
 		title: "UTM Connect",

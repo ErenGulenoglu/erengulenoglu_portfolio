@@ -43,7 +43,7 @@ const CaseStudiesGrid = () => {
 			<div className="container mx-auto px-6 md:px-12">
 				<motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.3 }} transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }} className="mb-16">
 					<p className="text-xs uppercase tracking-[0.2em] text-primary font-medium mb-3">Selected work</p>
-					<h2 className="text-balance">Case studies & projects</h2>
+					<h2 className="text-balance">Case studies & Projects</h2>
 				</motion.div>
 
 				<div className="flex flex-col gap-10 md:gap-14">

@@ -8,6 +8,7 @@ import UTMConnect from "./pages/UTMConnect.tsx";
 import HazelMcCallion from "./pages/HazelMcCallion.tsx";
 import UniLink from "./pages/UniLink.tsx";
 import CinemaBookingUI from "./pages/CinemaBookingUI.tsx";
+import GTGStudentApp from "./pages/GTGStudentApp.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -26,6 +27,7 @@ const App = () => (
 					<Route path="/work/hazel-mccallion-ux" element={<HazelMcCallion />} />
 					<Route path="/work/unilink-ux" element={<UniLink />} />
 					<Route path="/work/cinema-booking-ui" element={<CinemaBookingUI />} />
+					<Route path="/work/go-thrive-go" element={<GTGStudentApp />} />
 
 					{/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 					<Route path="*" element={<NotFound />} />
