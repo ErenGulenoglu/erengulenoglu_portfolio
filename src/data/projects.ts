@@ -16,7 +16,7 @@ export interface Project {
 export const projects: Project[] = [
 	{
 		slug: "go-thrive-go",
-		title: "Go Thrive Go - Student Mental Health App",
+		title: "Go Thrive Go - Campus Mental Health App",
 		category: "UX Research · UX/UI Design · Mobile App",
 		description:
 			"A low-fidelity prototype for a campus mental health and safety app. Designed through mixed-methods user research, structured interviews, and iterative usability testing with university students.",

@@ -89,7 +89,7 @@ const GoThriveGo = () => {
 						transition={{ duration: 0.8, delay: 0.3, ease }}
 						className="text-balance max-w-3xl mb-6"
 					>
-						Go Thrive Go - Student Mental Health App
+						Go Thrive Go - Campus Mental Health App
 					</motion.h1>
 
 					<motion.p
