@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
 // ─── Insert your links here ───────────────────────────────────────────────────
-const RESUME_URL = "https://drive.google.com/file/d/1tbcObhBZ6U03bJUacylbUx7aAFH5rpYn/view";
+const RESUME_URL = "https://drive.google.com/file/d/1b1SVU7JCI4fGP-TsXM5dQp2mVj5tJwu4/view";
 const LINKEDIN_URL = "https://www.linkedin.com/in/eren-gulenoglu-95690627b/";
 const GITHUB_URL = "https://github.com/ErenGulenoglu";
 // ─────────────────────────────────────────────────────────────────────────────
