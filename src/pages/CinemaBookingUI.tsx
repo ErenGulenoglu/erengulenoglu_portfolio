@@ -118,8 +118,7 @@ const CinemaBookingUI = () => {
 						<p className="text-xs uppercase tracking-[0.2em] text-primary font-medium mb-4">Project Info</p>
 						<ul className="flex flex-col w-full">
 							{[
-								{ label: "Role", value: "UI Designer" },
-								{ label: "Timeframe", value: "2 Days" },
+								{ label: "Type", value: "UI Practice" },
 								{ label: "Tools", value: "Figma" },
 							].map(({ label, value }) => (
 								<li key={label} className="flex flex-row justify-between border-b border-border py-3">
@@ -128,6 +127,14 @@ const CinemaBookingUI = () => {
 								</li>
 							))}
 						</ul>
+						<p className="text-xs uppercase tracking-[0.2em] text-primary font-medium mb-4 mt-8">Skills Practiced</p>
+						<div className="flex flex-wrap gap-2">
+							{["Linear Gradients", "Frames & Groups", "Bend Tool", "Auto Layout", "Plugins & Design Kits"].map((skill) => (
+								<span key={skill} className="text-xs px-2.5 py-1 rounded-full bg-secondary text-secondary-foreground border border-border">
+									{skill}
+								</span>
+							))}
+						</div>
 					</div>
 					<div className="flex flex-col w-full md:w-1/2">
 						<p className="text-xs uppercase tracking-[0.2em] text-primary font-medium mb-4">Contents</p>

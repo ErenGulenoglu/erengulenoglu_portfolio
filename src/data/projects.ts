@@ -3,6 +3,7 @@ import hazelux_image from "../assets/CCT477/Utm477.jpg";
 import unilink_image from "../assets/CCT434/unilinkpreview.png";
 import cinemabooking_image from "../assets/CinemeBookingUI/CinemaBookingUI_min.png";
 import AppMH from "../assets/GoThriveGo/AppMH.png";
+import championPreview from "../assets/ChampionMeta/championPreview.png";
 
 export interface Project {
 	slug: string;
@@ -24,12 +25,12 @@ export const projects: Project[] = [
 		tools: ["Figma", "Google Forms"],
 	},
 	{
-		slug: "utm-connect-ux",
-		title: "UTM Connect",
-		category: "UX Design · Mobile App",
-		description: "A mobile app concept helping UTM students discover clubs, stay informed about events, and connect with campus communities.",
-		image: utmconnect_image,
-		tools: ["Figma", "Miro"],
+		slug: "champion-meta",
+		title: "Champion Meta App",
+		category: "UI Design · Figma Exercise",
+		description: "A mid-fidelity UI practice project inspired by U.GG's League of Legends meta display, focused on advanced Figma techniques.",
+		image: championPreview,
+		tools: ["Figma"],
 	},
 	{
 		slug: "hazel-mccallion-ux",
@@ -38,6 +39,14 @@ export const projects: Project[] = [
 		description: "Investigating how transparency, staff dependency, and unclear wait times shape user frustration in the Hazel McCallion Library's 3D printing makerspace.",
 		image: hazelux_image,
 		tools: ["Miro", "Canva"],
+	},
+	{
+		slug: "utm-connect-ux",
+		title: "UTM Connect",
+		category: "UX Design · Mobile App",
+		description: "A mobile app concept helping UTM students discover clubs, stay informed about events, and connect with campus communities.",
+		image: utmconnect_image,
+		tools: ["Figma", "Miro"],
 	},
 	{
 		slug: "unilink-ux",
