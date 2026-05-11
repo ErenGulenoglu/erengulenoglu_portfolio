@@ -35,16 +35,16 @@ const About = () => {
 						<div className="flex flex-col gap-0 pt-6 border-t border-border">
 							{[
 								{
-									role: "UX Designer & Researcher",
-									place: "Anonymous Company",
-									date: "Jan 2025 - Apr 2025",
+									role: "UX Design & Research Consultant",
+									place: "Go Thrive Go",
+									date: "Feb 2026 - Apr 2026",
 									detail:
 										"Market research, preparing research documents, conducting user surveys and interviews, analyzing collected data, designing low-fidelity campus mental health app prototype, conducting usability tests, and presenting findings to stakeholders",
 								},
 								{
 									role: "Research Assistant",
 									place: "Stigma and Motivation Lab, Dept. of Psychology, UofT",
-									date: "Jun 2024 – Present",
+									date: "Jun 2024 – April 2026",
 									detail: "Conducted literature reviews, programmed and administered experimental studies, managed data collection and analysis in R, and coded qualitative data for thematic analysis",
 								},
 								{

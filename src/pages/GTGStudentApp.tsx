@@ -141,8 +141,8 @@ const GoThriveGo = () => {
 						<p className="text-xs uppercase tracking-[0.2em] text-primary font-medium mb-4">Project Info</p>
 						<ul className="flex flex-col w-full">
 							{[
-								{ label: "Client", value: "Anonymous" },
-								{ label: "Role", value: "UX/UI Designer & UX Researcher" },
+								{ label: "Client", value: "Go Thrive Go" },
+								{ label: "Role", value: "UX/UI Design & UX Research Consultant" },
 								{ label: "Timeframe", value: "8 Weeks" },
 								{ label: "Team", value: "Eren Gulenoglu, Sean Fei, Arhama Jawwad, Khalid Mlaekah, Adil Rana" },
 								{ label: "Tools", value: "Figma, Google Forms" },
@@ -175,7 +175,7 @@ const GoThriveGo = () => {
 					<div>
 						<SubHeading>The Project</SubHeading>
 						<Body>
-							An anonymous client engaged our team as IT consultants to design a campus safety version of the Go Thrive Go app, titled the "Stronger Together, Campus Safety Project." The goal was to
+							Go Thrive Go engaged our team as IT consultants to design a campus safety version of the Go Thrive Go app, titled the "Stronger Together, Campus Safety Project." The goal was to
 							understand students' safety-related needs and mental health barriers, then translate those findings into UX requirements and a low-fidelity clickable prototype.
 						</Body>
 					</div>
