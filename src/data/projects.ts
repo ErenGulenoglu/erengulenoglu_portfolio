@@ -4,6 +4,7 @@ import unilink_image from "../assets/CCT434/unilinkpreview.png";
 import cinemabooking_image from "../assets/CinemeBookingUI/CinemaBookingUI_min.png";
 import AppMH from "../assets/GoThriveGo/AppMH.png";
 import championPreview from "../assets/ChampionMeta/championPreview.png";
+import valorantCommunity from "../assets/valCom.png";
 
 export interface Project {
 	slug: string;
@@ -15,6 +16,15 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+	{
+		slug: "valorant-community",
+		title: "Valorant Community",
+		category: "UX/UI Design · Web App",
+		description:
+			"A small project in Framer design software, exploring breakpoints & responsive design, establishing clear site structure, working with absolute vs. relative positioning, adding smooth component animations, sourcing existing components and building original ones, optimizing for different devices.",
+		image: valorantCommunity,
+		tools: ["Framer"],
+	},
 	{
 		slug: "go-thrive-go",
 		title: "Go Thrive Go - Campus Mental Health App",

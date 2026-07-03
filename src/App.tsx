@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -15,6 +16,14 @@ import ScrollToTop from "@/components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
+function ValorantRedirect() {
+	useEffect(() => {
+		window.location.href = "https://positive-behavior-178952.framer.app/";
+	}, []);
+
+	return null;
+}
+
 const App = () => (
 	<QueryClientProvider client={queryClient}>
 		<TooltipProvider>
@@ -24,6 +33,7 @@ const App = () => (
 				<ScrollToTop />
 				<Routes>
 					<Route path="/" element={<Index />} />
+					<Route path="/work/valorant-community" element={<ValorantRedirect />} />
 					<Route path="/work/utm-connect-ux" element={<UTMConnect />} />
 					<Route path="/work/hazel-mccallion-ux" element={<HazelMcCallion />} />
 					<Route path="/work/unilink-ux" element={<UniLink />} />
