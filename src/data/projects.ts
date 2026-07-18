@@ -5,6 +5,7 @@ import cinemabooking_image from "../assets/CinemeBookingUI/CinemaBookingUI_min.p
 import AppMH from "../assets/GoThriveGo/AppMH.png";
 import championPreview from "../assets/ChampionMeta/championPreview.png";
 import valorantCommunity from "../assets/valCom.png";
+import SourSmoothie from "../assets/SourSmoothie.png";
 
 export interface Project {
 	slug: string;
@@ -16,6 +17,14 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+	{
+		slug: "sour-smoothie",
+		title: "SourSmoothie",
+		category: "UI Design · Web App",
+		description: "A small project in Framer design software, detailed component creation and integration of existing components.",
+		image: SourSmoothie,
+		tools: ["Framer"],
+	},
 	{
 		slug: "valorant-community",
 		title: "Valorant Community",

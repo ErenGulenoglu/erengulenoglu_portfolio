@@ -24,6 +24,14 @@ function ValorantRedirect() {
 	return null;
 }
 
+function SourSmoothieRedirect() {
+	useEffect(() => {
+		window.location.href = "https://tame-try-143731.framer.app/";
+	}, []);
+
+	return null;
+}
+
 const App = () => (
 	<QueryClientProvider client={queryClient}>
 		<TooltipProvider>
@@ -34,6 +42,7 @@ const App = () => (
 				<Routes>
 					<Route path="/" element={<Index />} />
 					<Route path="/work/valorant-community" element={<ValorantRedirect />} />
+					<Route path="/work/sour-smoothie" element={<SourSmoothieRedirect />} />
 					<Route path="/work/utm-connect-ux" element={<UTMConnect />} />
 					<Route path="/work/hazel-mccallion-ux" element={<HazelMcCallion />} />
 					<Route path="/work/unilink-ux" element={<UniLink />} />
